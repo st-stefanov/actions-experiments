@@ -16,5 +16,6 @@ jobs:
       - name: Show directory before checkout
         run: ls -l
       - name: Checkout our code
-      - uses: actions/checkout@v2
-      
+        uses: actions/checkout@v2
+      - name: Shows directory after checkout
+        run: ls -l
